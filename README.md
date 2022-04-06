@@ -1,8 +1,8 @@
-# Log4jDetectorAgent
+# Detect4jAgent
 
-[![Build Status](https://app.travis-ci.com/theque5t/Log4jDetectorAgent.svg?branch=main)](https://app.travis-ci.com/github/theque5t/Log4jDetectorAgent)
+[![Build Status](https://app.travis-ci.com/theque5t/Detect4jAgent.svg?branch=main)](https://app.travis-ci.com/github/theque5t/Detect4jAgent)
 
-Agent jar that that scans for [Log4j](https://www.google.com/search?q=log4j) in use within the JVM
+Agent jar that scans for specific classes in use within the JVM
 
 ## Disclaimer
 
@@ -18,31 +18,38 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Build
-
-```sh
-gradle clean ShadowJar
-```
-
 ## Requirements
 
-Log4jDetectorAgent requires the following to run:
+Detect4jAgent requires the following to run:
 
 - JRE 8+
 
 ## Installation
 
-1. Download the agent [jar](https://github.com/theque5t/Log4jDetectorAgent/releases) to system that needs to be scanned.
+1. Download the agent [jar](https://github.com/theque5t/Detect4jAgent/releases) to system that needs to be scanned.
 ```sh
-wget "https://github.com/theque5t/Log4jDetectorAgent/releases/download/v1.0.0/Log4jDetectorAgent-v1.0.0.jar"
+wget "https://github.com/theque5t/Detect4jAgent/releases/download/v1.0.0/Detect4jAgent-v1.0.0.jar"
 ```
 
 ## Usage
 
-Use this agent with the [Log4jDetector](https://github.com/theque5t/Log4jDetector) by following the [usage guide](https://github.com/theque5t/Log4jDetector#usage).
+Use this agent with the [Detect4j](https://github.com/theque5t/Detect4j) by following the [usage guide](https://github.com/theque5t/Detect4j#usage).
 
-## Contributing
+## Development
 
+### Issue Tracker
+Please use the [repo issues](https://github.com/theque5t/Detect4jAgent/issues)
+
+### Builds
+* Build using [Gradle](https://gradle.org/). See [build.gradle](./build.gradle) file
+* Build locally using the [build.sh](./scripts/build.sh) script
+* Remote builds by [Travis CI](https://app.travis-ci.com/github/theque5t/Detect4jAgent)
+* Builds served via [repo releases](https://github.com/theque5t/Detect4jAgent/releases)
+
+### Testing
+* Follow [Detect4j testing](https://github.com/theque5t/Detect4j#testing)
+
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to test as appropriate.
@@ -52,7 +59,7 @@ Please make sure to test as appropriate.
 
 ## Acknowledgements
 
-Log4jDetectorAgent makes use of the open source projects listed on the [index.md](build/reports/index.md) in the build/reports directory. [Click here](build/reports/index.md) to be automatically redirected to the [index.md](build/reports/index.md).
+Detect4jAgent makes use of the open source projects listed on the [index.md](build/reports/index.md) in the build/reports directory. [Click here](build/reports/index.md) to be automatically redirected to the [index.md](build/reports/index.md).
 
 ## Donations
 

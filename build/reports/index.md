@@ -1,7 +1,7 @@
-Dependency License Report for Log4jDetectorAgent
+Dependency License Report for Detect4jAgent
 
-# Dependency License Report for Log4jDetectorAgent #
+# Dependency License Report for Detect4jAgent #
 
 --------------------
 
-This report was generated at  *Mon Dec 20 13:57:46 CST 2021* .
+This report was generated at  *Tue Apr 05 17:52:06 CDT 2022* .
