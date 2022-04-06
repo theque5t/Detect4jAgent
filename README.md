@@ -28,7 +28,7 @@ Detect4jAgent requires the following to run:
 
 1. Download the agent [jar](https://github.com/theque5t/Detect4jAgent/releases) to system that needs to be scanned.
 ```sh
-wget "https://github.com/theque5t/Detect4jAgent/releases/download/v1.0.0/Detect4jAgent-v1.0.0.jar"
+curl "https://github.com/theque5t/Detect4jAgent/releases/download/v1.0.0-alpha.2/Detect4jAgent-v1.0.0-alpha.2.jar" -o "Detect4jAgent.jar"
 ```
 
 ## Usage
